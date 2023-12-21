@@ -10,6 +10,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Structboost</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/components.css" />
     <link rel="stylesheet" href="./css/grid.css" />
@@ -41,7 +42,7 @@
       </header>
       <section class="s-hero">
         <div class="container">
-          <div class="text-hero">
+          <div class="text-hero" data-aos="fade-right">
             <h1>Front-end descomplicado e direto ao ponto!</h1>
             <p>
               Aprenda a desenvolver interfaces modernas e de alta qualidade com
@@ -53,15 +54,29 @@
             <img src="./assets/svg/arrow.svg" alt="" class="arrow" />
           </div>
         </div>
-        <img src="./assets/svg/ilustra-hero.svg" class="ilustra" alt="" />
-        <img src="./assets/svg/ilustra-hero-mobile.svg" class="ilustra-mobile" alt="Ilustra mobile">
+        <img
+          data-aos="fade-up"
+          data-aos-delay="300"
+          src="./assets/svg/ilustra-hero.svg"
+          class="ilustra"
+          alt=""
+        />
+        <img
+          data-aos="fade-up"
+          data-aos-delay="300"
+          src="./assets/svg/ilustra-hero-mobile.svg"
+          class="ilustra-mobile"
+          alt="Ilustra mobile"
+        />
       </section>
     </main>
     <section class="s-bullets">
       <div class="container">
-        <h3>Transformando Ideias em Realidade Digital!</h3>
+        <h3 data-aos="fade-right">
+          Transformando Ideias em Realidade Digital!
+        </h3>
         <div class="item-bullets">
-          <div class="item-digital">
+          <div class="item-digital" data-aos="fade-right">
             <div class="icon">
               <img src="./assets/svg/icon-impacto.svg" alt="" />
             </div>
@@ -73,7 +88,7 @@
               </p>
             </div>
           </div>
-          <div class="item-digital">
+          <div class="item-digital" data-aos="fade-up">
             <div class="icon">
               <img src="./assets/svg/icon-nav.svg" alt="" />
             </div>
@@ -86,7 +101,7 @@
               </p>
             </div>
           </div>
-          <div class="item-digital">
+          <div class="item-digital" data-aos="fade-left">
             <div class="icon">
               <img src="./assets/svg/icon-performance.svg" alt="" />
             </div>
@@ -104,14 +119,14 @@
     <section class="s-art-front">
       <div class="container">
         <div class="title-text">
-          <div class="left">
+          <div class="left" data-aos="fade-right">
             <h3>Domine a Arte da Front-end</h3>
             <p>
               Prepare-se para criar interfaces incríveis e funcionais para a web
               com este curso completo de front-end.
             </p>
           </div>
-          <div class="right">
+          <div class="right" data-aos="fade-left">
             <p>
               Junte-se a nós neste curso de front-end e embarque em uma jornada
               emocionante para se tornar um desenvolvedor web altamente
@@ -120,7 +135,7 @@
           </div>
         </div>
         <div class="all">
-          <div class="card-post">
+          <div class="card-post" data-aos="flip-left">
             <span class="tag">Fundamentos</span>
             <div class="image">
               <img src="./assets/svg/icon-wire.svg" alt="" />
@@ -133,7 +148,7 @@
               </p>
             </div>
           </div>
-          <div class="card-post">
+          <div class="card-post" data-aos="flip-left">
             <span class="tag">Fundamentos</span>
             <div class="image">
               <img src="./assets/svg/icon-wire.svg" alt="" />
@@ -146,12 +161,12 @@
               </p>
             </div>
           </div>
-          <div class="card-post">
+          <div class="card-post" data-aos="flip-left">
             <span class="tag">Fundamentos</span>
             <div class="image">
               <img src="./assets/svg/icon-wire.svg" alt="" />
             </div>
-            <div class="text-post">
+            <div class="text-post" data-aos="flip-left">
               <h6>Javascript Moderno</h6>
               <p>
                 Aprenda a programar com Javascript moderno e torne suas páginas
@@ -159,7 +174,7 @@
               </p>
             </div>
           </div>
-          <div class="card-post">
+          <div class="card-post" data-aos="flip-left">
             <span class="tag">Fundamentos</span>
             <div class="image">
               <img src="./assets/svg/icon-wire.svg" alt="" />
@@ -172,7 +187,7 @@
               </p>
             </div>
           </div>
-          <div class="card-post">
+          <div class="card-post" data-aos="flip-left">
             <span class="tag">Fundamentos</span>
             <div class="image">
               <img src="./assets/svg/icon-wire.svg" alt="" />
@@ -189,7 +204,7 @@
       </div>
     </section>
     <section class="s-newsletter">
-      <div class="container">
+      <div class="container" data-aos="zoom-out">
         <h2>Front-end descomplicado e direto ao ponto!</h2>
         <p>
           Aprenda a desenvolver interfaces modernas e de alta qualidade com quem
@@ -270,5 +285,13 @@
         </p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        disable: "mobile",
+        once: true,
+      })
+    </script>
   </body>
 </html>
