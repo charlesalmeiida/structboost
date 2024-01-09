@@ -1,11 +1,7 @@
-<h1 align="center"> Spider-Man 2 </h1>
+<h1 align="center"> Structboost </h1>
 
 <p align="center">
-Landing page do jogo <strong>Spider-Man 2</strong> desenvolvida durante o evento DevProcess do curso CodeBoost.
-<br>
-<br>
-O DevProcess é um evento on-line e gratuito, promovido pelo CodeBoost e aconteceu entre os dias 21 e 24 de novembro de 2023.
- <br/>
+Landing page do <strong>Structboost</strong> o primeiro projeto desenvolvido durante o curso Codeboost. Para praticar noções de HTML e CSS na criação do wireframe.
 </p>
 
 <p align="center">
@@ -29,16 +25,9 @@ O DevProcess é um evento on-line e gratuito, promovido pelo CodeBoost e acontec
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML, SCSS
-- JavaScript
 - Git e Github
 - Figma
 
 ## 💻 Projeto
 
-O projeto foi desenvolvido com o objetivo de aperfeiçoar os conhecimentos nas tecnologias utilizadas para a criação de uma landing page baseada no jogo Spider-Man 2
-
-- [Visite o projeto online](https://github.com/charlesalmeiida/spider-man-2)
-
-## 🔖 Layout
-
-Você pode visualizar o resultado do projeto através [DESSE LINK](https://charlesalmeiida.github.io/spider-man-2/).
+- [Visite o projeto online](https://charlesalmeiida.github.io/structboost/)
